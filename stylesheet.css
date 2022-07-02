@@ -1,0 +1,115 @@
+
+body {
+background-color: hsl(30, 38%, 92%);
+max-height: 800px;
+max-width: 1440px;
+margin: 0px;
+padding: 0px;
+}
+/*main container*/
+.maincontent {
+  display: flex;
+  justify-content: center;
+  margin: 175px 420px;
+}
+/*main container end*/
+/*Image*/
+.mainimg {
+max-width: 300px;
+height: auto;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.mobileimg{
+  display: none;
+}
+/*Text area*/
+.textblock {
+  max-width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.textarea {
+  margin: 35px;
+}
+p {
+  font-size: 14px;
+}
+  .perfume-word {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  }
+  .maintext {
+    font-family: 'Fraunces';
+    font-size: 30px;
+    line-height: 30px;
+    color: hsl(212, 21%, 14%);
+  }
+  .secondarytext {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+  }
+.price1 {
+  font-family: 'Fraunces';
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+}
+.price2 {
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  }
+.link {
+  display: block;
+  text-align: center;
+  background: hsl(158, 36%, 37%);
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 25px;
+}
+.link:hover {
+  background: hsl(158, 36%, 20%);
+}
+svg {
+margin-right: 10px;
+margin-bottom: -2px;
+}
+/*Text area ends*/
+@media screen and (max-width: 376px) {
+  body {
+  background-color: hsl(30, 38%, 92%);
+  max-height: 800px;
+  max-width: 375px;
+  margin: 0px;
+  padding: 0px;
+  }
+  .maincontent {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 15px;
+    padding: 0px;
+    }
+    .textblock {
+      max-width: 375px;
+      background-color: hsl(0, 0%, 100%);
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  .mainimg {
+    display: none;
+  }
+  .mobileimg {
+    display: inline;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .textarea {
+    margin: 30px;
+  }
